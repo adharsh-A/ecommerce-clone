@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.engbtn{
+    color: beige;
+    --tw-ring-color:rgb (0, 0, 0);
+}
+.btn2{
+    justify-content: end;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+#search-btn {
+    background: white url(Component\ 2.png) right no-repeat;
+    padding-right: 50px;
+}
+.header-main{
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
