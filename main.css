@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+    font-family: "Arvo", serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:greyscale;
+}
 .engbtn{
     color: beige;
     --tw-ring-color:rgb (0, 0, 0);
@@ -21,6 +25,64 @@
     padding-right: 50px;
 }
 .header-main{
-    padding-top: 45px;
-    padding-bottom: 15px;
+    padding-top: 35px;
+    padding-bottom: 5px;
 }
+.vertical-row {
+    Float:left;
+    height:auto;
+    margin-top: 0;
+    width:1px; /* edit this if you want */
+    background-color:black;
+   } 
+
+   .arvo-regular {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .arvo-regular-italic {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .arvo-bold {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .arvo-bold-italic {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+.menu-item {
+  
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0 0 10px rgba(31, 2, 17, 0.459);
+}
+
+.menu-item:hover .submenu {
+  
+    display: flex;
+}
+.submenu:hover .submenu-item{
+  border-radius: 10px;
+}
+#span1{
+  position: absolute;
+}
+
