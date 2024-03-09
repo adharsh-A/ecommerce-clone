@@ -41,9 +41,10 @@
 }
 hr {
   background-color: #f0abfc;
-  border-style: none;
-  height: 0px;
-  width: 30%;
+  border-style: solid;
+  align-self: center;
+  height: 1px;
+  width: 100%;
 }
 .vertical-row {
     Float:left;
@@ -237,6 +238,7 @@ hr {
 }
 
 .group:hover {
+  color: ;
   z-index: 10; /* 10px is not a valid value for z-index, so it should be just 10 */
   box-shadow: 0 0 10px rgba(194, 58, 128, 0.82);
   transform: scale(1.05); /* Increase the size by 10% on hover, adjust as needed */
@@ -261,10 +263,14 @@ hr {
   transition: transform 0.1s ease-in-out; /* Adding a smooth transition for a better visual effect */
 }
 
-.category-btn:hover {
+.category-btn:hover{
   background-color: rgb(217 70 239);
   color: #000000;
   z-index: 10px; /* 10px is not a valid value for z-index, so it should be just 10 */
   box-shadow: 0 0 10px rgba(194, 58, 128, 0.82);
   transform: scale(1.05); /* Increase the size by 10% on hover, adjust as needed */
 }
+.a:hover{
+  color: #000000;
+}
+
